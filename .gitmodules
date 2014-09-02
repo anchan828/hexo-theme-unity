@@ -1,0 +1,4 @@
+[submodule "themes/unity"]
+	path = themes/unity
+	url = git@github.com:anchan828/hexo-theme-unity.git
+	branch = master
