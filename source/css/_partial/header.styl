@@ -183,3 +183,223 @@ $nav-link
   right: 0;
   z-index: 16;
   cursor: pointer;
+
+::selection
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+
+
+header.section-header
+  width: 100%;
+  height: 110px;
+  margin: 0 auto 15px auto;
+  position: relative;
+  z-index: 10;
+
+
+@media only screen and (max-width: 980px) and (min-width: 150px)
+  header.section-header
+    display: none;
+
+header.section-header div.top-fill
+  width: 100%;
+  height: 70px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+header.section-header div.wrap
+  width: 100%;
+  max-width: 1240px;
+  padding: 0 40px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+header.section-header div.top-fill div.fill
+  width: 200%;
+  height: 70px;
+  background: rgba(34,44,55,0.9);
+  position: absolute;
+  z-index: 14;
+  left: 100px;
+  top: 0;
+
+
+nav.top-nav
+  width: 100%;
+  height: 70px;
+
+header.section-header div.shard:before
+  content: '';
+  width: 562px;
+  height: 140px;
+  display: block;
+  position: absolute;
+  right: 0;
+  background: url(images/shard.png) 0 0 no-repeat;
+
+
+header.section-header div.shard
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  z-index: 15;
+  right: 100%;
+  top: 0;
+  margin: 0 -161px 0 0;
+
+header.section-header div.logo
+  width: 86px;
+  height: 32px;
+  float: left;
+  position: relative;
+  z-index: 16;
+  margin: 26px 0 0 0;
+  background: url(images/logo.png)
+  &::after
+    color: white
+
+header.section-header div.logo a
+  width: 86px;
+  height: 32px;
+  display: block;
+
+nav.top-nav ul 
+  list-style-type: none;
+  padding: 0 71px 0 125px;
+  position: relative;
+  z-index: 16;
+
+nav.top-nav ul li.first
+  margin: 0 1px 0 0;
+  display: none;
+
+nav.top-nav ul li 
+  height: 70px;
+  float: left;
+
+nav.top-nav ul
+  list-style-type: none;
+  padding: 0 71px 0 125px;
+  position: relative;
+  z-index: 16;
+
+nav.top-nav ul li a.active-trail
+  position: relative;
+  font-family: 'avalonbold','Nanum Gothic','Open Sans',sans-serif;
+  line-height: 92px;
+  color: #00cccc;
+
+nav.top-nav ul li a.active-trail:after
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 17px;
+  left: 0;
+  background: #00cccc;
+
+
+nav.top-nav ul li a
+  height: 70px;
+  line-height: 90px;
+  float: left;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  font-family: 'avalon','Nanum Gothic','Open Sans',sans-serif;
+  -webkit-transition: color .15s;
+  -moz-transition: color .15s;
+  -ms-transition: color .15s;
+  -o-transition: color .15s;
+  transition: color .15s;
+
+nav.sub-nav
+  width: 100%;
+  overflow: hidden;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, video, canvas
+  display: block;
+
+
+nav.sub-nav div.sub-fill
+  width: 200%;
+  height: 34px;
+  background: rgba(0,204,204,0.9);
+  position: absolute;
+  z-index: 14;
+  left: 100px;
+  top: 0;
+
+nav.sub-nav ul
+  list-style-type: none;
+  height: 34px;
+  padding: 0 0 0 140px;
+  position: relative;
+  z-index: 16;
+
+nav.sub-nav ul li
+  float: left;
+  font-family: 'avalon','Nanum Gothic','Open Sans',sans-serif;
+  letter-spacing: 0.4px;
+
+nav.sub-nav ul li a
+  height: 34px;
+  line-height: 34px;
+  margin: 0 20px 0 0;
+  display: block;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.875em;
+
+nav.sub-nav ul li
+  float: left;
+  font-family: 'avalon','Nanum Gothic','Open Sans',sans-serif;
+  letter-spacing: 0.4px;
+
+
+header.m-header, nav.mobile-menu, div.m-shard
+  display: none;
+
+.clear
+  display: block;
+  clear: both;
+
+.clear:after
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+
+@media only screen and (max-width: 980px) and (min-width: 150px)
+  header.m-header
+    width: 100%;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 12;
+    background-color: rgba(34,44,55,0.9);
+
+
+  div.m-logo
+    width: 86px;
+    height: 50px;
+    float: left;
+    background: url(images/logo.png) 0 9px no-repeat;
+    margin: 0 0 0 9px;
+  
+  div.m-logo a
+    width: 86px;
+    height: 50px;
+    display: block;

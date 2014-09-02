@@ -37,8 +37,33 @@ body
   margin: 0 auto
   padding: 20px gutter-width
 
-h2, h3, h4, h5, h6
-  font-family: inherit !important
+h1
+  font-size: 3em;
+  line-height: 1em;
+  color: #1b2229;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+
+h2
+  font-size: 1.6875em;
+  line-height: 1.2em;
+  color: #1b2229;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  
+h3
+  font-size: 1.375em;
+  line-height: 1.2em;
+  margin: 0 0 15px 0;
+  color: #1b2229;
+
+h4
+  font-size: 1.0625em;
+  line-height: 1.2em;
+  margin: 0 0 10px 0;
+  color: #455463;
+  font-weight: bold;
 
 .inner
   column(columns)
@@ -77,6 +102,19 @@ if sidebar and sidebar isnt bottom
 if sidebar is left
   #main
     float: right
+
+
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time, video
+  margin: 0;
+  padding: 0;
+
+a 
+  color: #ff0066
+  text-decoration: underline;
+  outline: none;
+  cursor: pointer;
+
+
 
 @import "_extend"
 @import "_partial/header"
