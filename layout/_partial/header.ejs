@@ -1,3 +1,24 @@
+<% function menu(name) { %>
+<li class="menu-363">
+<% if(name == "Home") { %>
+
+  <a href="<%- config.root %>" class="<% if(config.root+"/" == url_for(page.path)) { %>
+            active-trail active
+            <% } %>
+            ">Home</a>
+
+<% } else {%>
+
+<a href="<%- config.root + name.toLowerCase() %>" class="
+            
+            <% if(config.root + name.toLowerCase() +"/" == url_for(page.path)) {%>
+
+            active-trail active
+            <% } %>
+"><%- name %></a>
+</li>
+<% }} %>
+
 <header id="section-header" class="section section-header">
   <div class="header-wrapper no-userinfo" style=" ">
     <div class="top-fill">
@@ -12,15 +33,8 @@
           <a href="<%- config.root %>"></a>
         </div>
         <ul class="main-menu">
-          <li class="menu-357 first">
-            <a href="<%- config.root %>" title="" >Home</a>
-          </li>
-          <li class="menu-363">
-            <a href="<%- config.root %>" class="active-trail active">Home</a>
-          </li>
-          <li class="menu-363">
-            <a href="<%- config.root %>archives">Archives</a>
-          </li>
+            <% menu("Home") %>
+            <% menu("Archives") %>
         </ul>
         <div id="sub-nav-hexo">
            <% if (theme.rss){ %>
