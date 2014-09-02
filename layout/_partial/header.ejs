@@ -40,24 +40,6 @@
           <li class="menu-383 first">
             <a href="/" title="">Test</a>
           </li>
-          <!-- <li class="menu-384">
-            <a href="http://answers.unity3d.com/" title="">Answers</a>
-          </li>
-          <li class="menu-385">
-            <a href="http://feedback.unity3d.com/" title="">Feedback</a>
-          </li>
-          <li class="menu-767">
-            <a href="http://issuetracker.unity3d.com/" title="">Issue Tracker</a>
-          </li>
-          <li class="menu-933">
-            <a href="http://blogs.unity3d.com/" title="">Blog</a>
-          </li>
-          <li class="menu-764">
-            <a href="http://evangelists.unity3d.com/" title="">Evangelists</a>
-          </li>
-          <li class="menu-860 last">
-            <a href="/community/user-groups" title="">User Groups</a>
-          </li> -->
         </ul>
         <script> var submore = 'More'; </script>
       </div>
@@ -70,43 +52,9 @@
            <% if (theme.rss){ %>
           <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
         <% } %>
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-        <div id="search-form-wrap">
+        <a id="m-nav-search-btn" class="nav-icon" title="Search"></a>
+        <div id="m-search-form-wrap">
         <%- search_form({button: '&#xF002;'}) %>
   </div>
 
 </header>
-<!-- 
-<header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
-      </h1>
-      <% if (theme.subtitle){ %>
-        <h2 id="subtitle-wrap">
-          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
-        </h2>
-      <% } %>
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        <% for (var i in theme.menu){ %>
-          <a class="main-nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
-        <% } %>
-      </nav>
-      <nav id="sub-nav">
-        <% if (theme.rss){ %>
-          <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
-        <% } %>
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <%- search_form({button: '&#xF002;'}) %>
-      </div>
-    </div>
-  </div>
-</header>
--->

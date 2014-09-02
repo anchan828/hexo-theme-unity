@@ -1,11 +1,16 @@
 <footer id="footer">
-  <% if (theme.sidebar === 'bottom'){ %>
+<% if (theme.sidebar === 'bottom'){ %>
     <%- partial('_partial/sidebar') %>
   <% } %>
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+  <div class="primary">
+    <div class="wrap">
+     
+   	<div class="footer-shards">
+        <div class="light"></div>
+        <div class="colored"></div>
+        <div class="dark"></div>
+      </div>
+      
     </div>
   </div>
 </footer>

@@ -16,11 +16,14 @@ widgets:
 - tagcloud
 - archive
 - recent_posts
+- twitter_widget
 
 # Miscellaneous
-google_analytics:
+google_analytics: "UA-54389737-1"
 favicon: /favicon.png
-twitter:
+twitter: 
+	username: kyusyukeigo
+	widget_id: "479529444873220097"
 google_plus:
 fb_admins:
 fb_app_id:

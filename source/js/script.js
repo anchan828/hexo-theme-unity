@@ -1,7 +1,7 @@
 (function($){
   // Search
-  var $searchWrap = $('#search-form-wrap'),
-    isSearchAnim = false,
+  
+  var  isSearchAnim = false,
     searchAnimDuration = 200;
 
   var startSearchAnim = function(){
@@ -19,7 +19,17 @@
     if (isSearchAnim) return;
 
     startSearchAnim();
-    $searchWrap.addClass('on');
+    $('#search-form-wrap').addClass('on');
+    stopSearchAnim(function(){
+      $('.search-form-input').focus();
+    });
+  });
+
+  $('#m-nav-search-btn').on('click', function(){
+    if (isSearchAnim) return;
+
+    startSearchAnim();
+    $('#m-search-form-wrap').addClass('on');
     stopSearchAnim(function(){
       $('.search-form-input').focus();
     });
@@ -27,7 +37,7 @@
 
   $('.search-form-input').on('blur', function(){
     startSearchAnim();
-    $searchWrap.removeClass('on');
+    $('#search-form-wrap, #m-search-form-wrap').removeClass('on');
     stopSearchAnim();
   });
 
