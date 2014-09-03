@@ -30,8 +30,14 @@ git pull
 ``` yml
 # Header
 menu:
-  Home: /
   Archives: /archives
+
+sub_menu:
+  archives:
+    Test1: /archives/test1
+    Test2: /archives/test2
+    Test3: /archives/test3
+
 rss: /atom.xml
 
 # Content
@@ -44,14 +50,19 @@ widgets:
 - category
 - tag
 - tagcloud
-- archives
+- archive
 - recent_posts
+- twitter_widget
 
 # Miscellaneous
-google_analytics:
+google_analytics: "UA-54389737-1"
 favicon: /favicon.png
 twitter:
+	username: kyusyukeigo
+	widget_id: "479529444873220097"
 google_plus:
+fb_admins:
+fb_app_id:
 ```
 
 - **menu** - Navigation menu
