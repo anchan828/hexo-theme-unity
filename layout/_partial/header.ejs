@@ -1,7 +1,7 @@
 <% function menu(name) { %>
 <li class="menu-363">
     <% if(name === "Home") { %>
-    <a href="<%- config.root %>" class="<% if(url_for(config.root) == url_for(page.path).replace("//","/")) { %>
+    <a href="<%- config.root %>" class="<% if(url_for(config.root) == url_for(page.path).replace("//", "/")) { %>
             active-trail active
             <% } %>
             ">Home</a>
@@ -29,8 +29,9 @@
                     <a href="<%- config.root %>"></a>
                 </div>
                 <ul class="main-menu">
-                    <% menu("Home") %>
-                    <% menu("Archives") %>
+                    <% for (var i in theme.menu) {
+                        menu(i)
+                    } %>
                 </ul>
                 <div id="sub-nav-hexo">
                     <% if (theme.rss){ %>
@@ -49,7 +50,15 @@
                 <div class="sub-fill"></div>
                 <ul class="secondary-menu">
                     <li class="menu-383 first">
-                        <a href="<%- config.root %>" title="">Test</a>
+
+                        <%
+                        var sub_menu = theme.sub_menu[page.path.replace(/\//g, '')];
+                        if(sub_menu){
+                                for(var i in theme.sub_menu[page.path.replace(/\//g, '')]){ %>
+                        <a href="<%- url_for(sub_menu[i]).replace("//", "/") %>" title=""> <%- i %></a>
+                        <% } %>
+                        <% } %>
+
                     </li>
                 </ul>
                 <script> var submore = 'More'; </script>
