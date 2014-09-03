@@ -116,36 +116,38 @@ $nav-link
     content: "\f002"
 
 
-
-#search-form-wrap
+_search-form-wrap()
   position: absolute
-  top: 25px
-  width: 150px
-  height: 30px
-  right: 150px
-  opacity: 0
-  transition: 0.2s ease-out
-  &.on
-    opacity: 1
-    right: 0
-  @media mq-mobile
-    width: 100%
-    right: -100%
-
-#m-search-form-wrap
-  position: absolute;
-  top: 9px;
   width: 150px;
   height: 30px;
-  right: 150px;
+  right: 150px
   opacity: 0;
+  visibility: hidden;
   -webkit-transition: 0.2s ease-out;
   -moz-transition: 0.2s ease-out;
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   &.on
+    visibility visible
     opacity: 1
+    right: 0
+  @media mq-mobile
+    width: 100%
+
+#search-form-wrap
+  _search-form-wrap()
+  top: 25px
+  @media mq-mobile
+    right: -100%
+
+#m-search-form-wrap
+  _search-form-wrap()
+  top: 9px;
+  &.on
     right: 10px
+
+
+
 
 .search-form
   position: absolute
@@ -184,17 +186,15 @@ $nav-link
 
 #sub-nav-hexo
   width: 90px;
-  height: 70px;
   position: absolute;
   top: 0;
   right: 70px;
   z-index: 16;
   cursor: pointer;
-  padding-top:15px;
+  padding-top: 15px;
 
 #m-sub-nav-hexo
   width: 90px;
-  height: 70px;
   position: absolute;
   top: 0;
   right: 0;
@@ -206,14 +206,12 @@ $nav-link
   color: #fff;
   text-shadow: none;
 
-
 header.section-header
   width: 100%;
   height: 110px;
   margin: 0 auto 15px auto;
   position: relative;
   z-index: 10;
-
 
 @media only screen and (max-width: 980px) and (min-width: 150px)
   header.section-header
@@ -240,12 +238,11 @@ header.section-header div.wrap
 header.section-header div.top-fill div.fill
   width: 200%;
   height: 70px;
-  background: rgba(34,44,55,0.9);
+  background: rgba(34, 44, 55, 0.9);
   position: absolute;
   z-index: 14;
   left: 100px;
   top: 0;
-
 
 nav.top-nav
   width: 100%;
@@ -259,7 +256,6 @@ header.section-header div.shard:before
   position: absolute;
   right: 0;
   background: url(images/shard.png) 0 0 no-repeat;
-
 
 header.section-header div.shard
   width: 100%;
@@ -286,7 +282,7 @@ header.section-header div.logo a
   height: 32px;
   display: block;
 
-nav.top-nav ul 
+nav.top-nav ul
   list-style-type: none;
   padding: 0 71px 0 125px;
   position: relative;
@@ -296,7 +292,7 @@ nav.top-nav ul li.first
   margin: 0 1px 0 0;
   display: none;
 
-nav.top-nav ul li 
+nav.top-nav ul li
   height: 70px;
   float: left;
 
@@ -308,7 +304,7 @@ nav.top-nav ul
 
 nav.top-nav ul li a.active-trail
   position: relative;
-  font-family: 'avalonbold','Nanum Gothic','Open Sans',sans-serif;
+  font-family: 'avalonbold', 'Nanum Gothic', 'Open Sans', sans-serif;
   line-height: 92px;
   color: #00cccc;
 
@@ -322,7 +318,6 @@ nav.top-nav ul li a.active-trail:after
   left: 0;
   background: #00cccc;
 
-
 nav.top-nav ul li a
   height: 70px;
   line-height: 90px;
@@ -331,7 +326,7 @@ nav.top-nav ul li a
   text-decoration: none;
   color: #fff;
   font-size: 1em;
-  font-family: 'avalon','Nanum Gothic','Open Sans',sans-serif;
+  font-family: 'avalon', 'Nanum Gothic', 'Open Sans', sans-serif;
   -webkit-transition: color .15s;
   -moz-transition: color .15s;
   -ms-transition: color .15s;
@@ -345,11 +340,10 @@ nav.sub-nav
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, video, canvas
   display: block;
 
-
 nav.sub-nav div.sub-fill
   width: 200%;
   height: 34px;
-  background: rgba(0,204,204,0.9);
+  background: rgba(0, 204, 204, 0.9);
   position: absolute;
   z-index: 14;
   left: 100px;
@@ -364,7 +358,7 @@ nav.sub-nav ul
 
 nav.sub-nav ul li
   float: left;
-  font-family: 'avalon','Nanum Gothic','Open Sans',sans-serif;
+  font-family: 'avalon', 'Nanum Gothic', 'Open Sans', sans-serif;
   letter-spacing: 0.4px;
 
 nav.sub-nav ul li a
@@ -379,9 +373,8 @@ nav.sub-nav ul li a
 
 nav.sub-nav ul li
   float: left;
-  font-family: 'avalon','Nanum Gothic','Open Sans',sans-serif;
+  font-family: 'avalon', 'Nanum Gothic', 'Open Sans', sans-serif;
   letter-spacing: 0.4px;
-
 
 header.m-header, nav.mobile-menu, div.m-shard
   display: none;
@@ -406,8 +399,7 @@ header.m-header, nav.mobile-menu, div.m-shard
     position: absolute;
     top: 0;
     z-index: 12;
-    background-color: rgba(34,44,55,0.9);
-
+    background-color: rgba(34, 44, 55, 0.9);
 
   div.m-logo
     width: 86px;
@@ -415,7 +407,7 @@ header.m-header, nav.mobile-menu, div.m-shard
     float: left;
     background: url(images/logo.png) 0 9px no-repeat;
     margin: 0 0 0 9px;
-  
+
   div.m-logo a
     width: 86px;
     height: 50px;
