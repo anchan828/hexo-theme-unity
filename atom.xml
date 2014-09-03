@@ -4,7 +4,7 @@
   
   <link href="/hexo-theme-unity/atom.xml" rel="self"/>
   <link href="http://anchan828.github.io/"/>
-  <updated>2014-09-03T14:33:18.348Z</updated>
+  <updated>2014-09-03T14:35:55.222Z</updated>
   <id>http://anchan828.github.io/</id>
   
   <author>
@@ -15,11 +15,26 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Categories]]></title>
+    <link href="http://anchan828.github.io/2014/09/03/Categories/"/>
+    <id>http://anchan828.github.io/2014/09/03/Categories/</id>
+    <published>2014-09-03T14:34:41.000Z</published>
+    <updated>2014-09-03T14:35:03.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      <category term="チュートリアル" scheme="http://anchan828.github.io/categories/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/"/>
+    
+      <category term="2Dシューティング" scheme="http://anchan828.github.io/categories/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB/2D%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Gist]]></title>
     <link href="http://anchan828.github.io/2014/09/03/Gist/"/>
     <id>http://anchan828.github.io/2014/09/03/Gist/</id>
     <published>2014-09-03T14:09:45.000Z</published>
-    <updated>2014-09-03T14:32:55.000Z</updated>
+    <updated>2014-09-03T14:34:47.000Z</updated>
     <content type="html"><![CDATA[<script src="https://gist.github.com/c3478717023a9b549cca.js"></script>]]></content>
     
     
