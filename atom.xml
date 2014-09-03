@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Unity Theme]]></title>
+  
+  <link href="/hexo-theme-unity/atom.xml" rel="self"/>
+  <link href="http://anchan828.github.io/"/>
+  <updated>2014-09-03T14:33:18.348Z</updated>
+  <id>http://anchan828.github.io/</id>
+  
+  <author>
+    <name><![CDATA[Keigo Ando]]></name>
+    <email><![CDATA[anchan828@unity3d.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Gist]]></title>
+    <link href="http://anchan828.github.io/2014/09/03/Gist/"/>
+    <id>http://anchan828.github.io/2014/09/03/Gist/</id>
+    <published>2014-09-03T14:09:45.000Z</published>
+    <updated>2014-09-03T14:32:55.000Z</updated>
+    <content type="html"><![CDATA[<script src="https://gist.github.com/c3478717023a9b549cca.js"></script>]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Gallery Post]]></title>
+    <link href="http://anchan828.github.io/2014/09/03/Gallery-Post/"/>
+    <id>http://anchan828.github.io/2014/09/03/Gallery-Post/</id>
+    <published>2014-09-03T13:41:17.000Z</published>
+    <updated>2014-09-03T14:32:43.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Excerpts]]></title>
+    <link href="http://anchan828.github.io/2014/09/03/Excerpts/"/>
+    <id>http://anchan828.github.io/2014/09/03/Excerpts/</id>
+    <published>2014-09-03T13:38:02.000Z</published>
+    <updated>2014-09-03T13:39:03.000Z</updated>
+    <content type="html"><![CDATA[<p>The following contents should be invisible in home/archive page.</p>
+<a id="more"></a>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.</p>
+<p>Sed lorem felis, congue non fringilla eu, aliquam eu eros. Curabitur orci libero, mollis sed semper vitae, adipiscing in lectus. Aenean non egestas odio. Donec sollicitudin nisi quis lorem gravida, in pharetra mauris fringilla. Duis sit amet faucibus dolor, id aliquam neque. In egestas, odio gravida tempor dictum, mauris felis faucibus purus, sit amet commodo lacus diam vitae est. Ut ut quam eget massa semper sodales. Aenean non ipsum cursus, blandit lectus in, ornare odio. Curabitur ultrices porttitor vulputate.</p>
+]]></content>
+    <summary type="html"><![CDATA[<p>The following contents should be invisible in home/archive page.</p>
+]]></summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Videos]]></title>
+    <link href="http://anchan828.github.io/2014/09/03/Videos/"/>
+    <id>http://anchan828.github.io/2014/09/03/Videos/</id>
+    <published>2014-09-03T13:30:12.000Z</published>
+    <updated>2014-09-03T13:31:42.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="Youtube">Youtube</h3>
+<div class="video-container"><iframe src="//www.youtube.com/embed/M_GUlXJ52YA" frameborder="0" allowfullscreen></iframe></div>
+
+<h3 id="Viemo">Viemo</h3>
+<div class="video-container"><iframe src="//player.vimeo.com/video/69478293" frameborder="0" allowfullscreen></iframe></div>]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://anchan828.github.io/2014/09/03/hello-world/"/>
+    <id>http://anchan828.github.io/2014/09/03/hello-world/</id>
+    <published>2014-09-03T12:50:07.000Z</published>
+    <updated>2014-09-03T12:50:07.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Images]]></title>
+    <link href="http://anchan828.github.io/2014/09/03/Images/"/>
+    <id>http://anchan828.github.io/2014/09/03/Images/</id>
+    <published>2014-09-03T11:08:00.000Z</published>
+    <updated>2014-09-03T13:35:58.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/hexo-theme-unity/2014/09/03/Images/wallpaper-2572384.jpg"></img></p>
+
+
+<p><img alt="Caption" src="/hexo-theme-unity/2014/09/03/Images/wallpaper-2311325.jpg"></img></p>
+
+
+<p><img alt="Small Picture" src="/hexo-theme-unity/2014/09/03/Images/350x150.jpg"></img></p>]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[]]></title>
+    <link href="http://anchan828.github.io/2014/09/03/Unity-Theme/"/>
+    <id>http://anchan828.github.io/2014/09/03/Unity-Theme/</id>
+    <published>2014-09-02T16:00:20.000Z</published>
+    <updated>2014-09-03T12:43:33.000Z</updated>
+    <content type="html"><![CDATA[<p>Github  - <a href="https://github.com/anchan828/hexo-theme-unity" target="_blank" rel="external">https://github.com/anchan828/hexo-theme-unity</a></p>
+<p>A brand new default theme for <a href="http://zespia.tw/hexo/" target="_blank" rel="external">Hexo</a>.</p>
+<ul>
+<li><a href="http://anchan828.github.io/hexo-theme-unity/" target="_blank" rel="external">Preview</a></li>
+</ul>
+<h2 id="Installation">Installation</h2>
+<h3 id="Install">Install</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone https://github.com/anchan828/hexo-theme-unity.git themes/unity</div></pre></td></tr></table></figure>
+
+<p><strong>Unity requires Hexo 2.4 and above.</strong></p>
+<h3 id="Enable">Enable</h3>
+<p>Modify <code>theme</code> setting in <code>_config.yml</code> to <code>unity</code>.</p>
+<h3 id="Update">Update</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> themes/unity</div><div class="line">git pull</div></pre></td></tr></table></figure>
+
+<h2 id="Configuration">Configuration</h2>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line"><span class="preprocessor"># Header</span></div><div class="line"><span class="label">menu:</span></div><div class="line">  Archives: /archives</div><div class="line"></div><div class="line"><span class="label">sub_menu:</span></div><div class="line">  archives:</div><div class="line">    Test1: /archives/test1</div><div class="line">    Test2: /archives/test2</div><div class="line">    Test3: /archives/test3</div><div class="line"></div><div class="line"><span class="label">rss:</span> /atom.xml</div><div class="line"></div><div class="line"><span class="preprocessor"># Content</span></div><div class="line"><span class="label">excerpt_link:</span> Read More</div><div class="line"><span class="label">fancybox:</span> true</div><div class="line"></div><div class="line"><span class="preprocessor"># Sidebar</span></div><div class="line"><span class="label">sidebar:</span> right</div><div class="line"><span class="label">widgets:</span></div><div class="line">- category</div><div class="line">- tag</div><div class="line">- tagcloud</div><div class="line">- archive</div><div class="line">- recent_posts</div><div class="line">- twitter_widget</div><div class="line"></div><div class="line"><span class="preprocessor"># Miscellaneous</span></div><div class="line"><span class="label">google_analytics:</span> <span class="string">"UA-54389737-1"</span></div><div class="line"><span class="label">favicon:</span> /favicon.png</div><div class="line"><span class="label">twitter:</span></div><div class="line">	username: kyusyukeigo</div><div class="line">	widget_id: <span class="string">"479529444873220097"</span></div><div class="line"><span class="label">google_plus:</span></div><div class="line"><span class="label">fb_admins:</span></div><div class="line"><span class="label">fb_app_id:</span></div></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>menu</strong> - Navigation menu</li>
+<li><strong>rss</strong> - RSS link</li>
+<li><strong>excerpt_link</strong> - “Read More” link at the bottom of excerpted articles. <code>false</code> to hide the link.</li>
+<li><strong>fancybox</strong> - Enable <a href="http://fancyapps.com/fancybox/" target="_blank" rel="external">Fancybox</a></li>
+<li><strong>sidebar</strong> - Sidebar style. You can choose <code>left</code>, <code>right</code>, <code>bottom</code> or <code>false</code>.</li>
+<li><strong>widgets</strong> - Widgets displaying in sidebar</li>
+<li><strong>google_analytics</strong> - Google Analytics ID</li>
+<li><strong>favicon</strong> - Favicon path</li>
+<li><strong>twitter</strong> - Twiiter ID</li>
+<li><strong>google_plus</strong> - Google+ ID</li>
+</ul>
+<h2 id="Features">Features</h2>
+<h3 id="Fancybox">Fancybox</h3>
+<p>Landscape uses <a href="http://fancyapps.com/fancybox/" target="_blank" rel="external">Fancybox</a> to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">![<span class="link_label">img caption</span>](<span class="link_url">img_url</span>)</div><div class="line"></div><div class="line">&#123;% fancybox img<span class="emphasis">_url [img_</span>thumbnail] [img_caption] %&#125;</div></pre></td></tr></table></figure>
+
+<h3 id="Sidebar">Sidebar</h3>
+<p>You can put your sidebar in left side, right side or bottom of your site by editing <code>sidebar</code> setting.</p>
+<p>Landscape provides 5 built-in widgets:</p>
+<ul>
+<li>category</li>
+<li>tag</li>
+<li>tagcloud</li>
+<li>archives</li>
+<li>recent_posts</li>
+</ul>
+<p>All of them are enabled by default. You can edit them in <code>widget</code> setting.</p>
+<h2 id="Development">Development</h2>
+<h3 id="Requirements">Requirements</h3>
+<ul>
+<li><a href="http://gruntjs.com/" target="_blank" rel="external">Grunt</a> 0.4+</li>
+<li>Hexo 2.4+</li>
+</ul>
+<h3 id="Grunt_tasks">Grunt tasks</h3>
+<ul>
+<li><strong>default</strong> - Download <a href="http://fancyapps.com/fancybox/" target="_blank" rel="external">Fancybox</a> and <a href="http://fontawesome.io/" target="_blank" rel="external">Font Awesome</a>.</li>
+<li><strong>fontawesome</strong> - Only download <a href="http://fontawesome.io/" target="_blank" rel="external">Font Awesome</a>.</li>
+<li><strong>fancybox</strong> - Only download <a href="http://fancyapps.com/fancybox/" target="_blank" rel="external">Fancybox</a>.</li>
+<li><strong>clean</strong> - Clean temporarily files and downloaded files.</li>
+</ul>
+]]></content>
+    
+    
+      <category term="Hexo" scheme="http://anchan828.github.io/tags/Hexo/"/>
+    
+      <category term="Theme" scheme="http://anchan828.github.io/tags/Theme/"/>
+    
+  </entry>
+  
+</feed>
