@@ -1,18 +1,13 @@
 <% function menu(name) { %>
 <li class="menu-363">
-<% if(name == "Home") { %>
-
-  <a href="<%- config.root %>" class="<% if(config.root+"/" == url_for(page.path)) { %>
+    <% if(name == "Home") { %>
+    <a href="<%- config.root %>" class="<% if(config.root + "/" == url_for(page.path)) { %>
             active-trail active
             <% } %>
             ">Home</a>
-
-<% } else {%>
-
-<a href="<%- config.root + name.toLowerCase() %>" class="
-            
-            <% if(config.root + name.toLowerCase() +"/" == url_for(page.path)) {%>
-
+    <% } else { %>
+    <a href="<%- config.root + name.toLowerCase() %>" class="
+            <% if(config.root + name.toLowerCase() + "/" == url_for(page.path)) { %>
             active-trail active
             <% } %>
 "><%- name %></a>
@@ -20,55 +15,57 @@
 <% }} %>
 
 <header id="section-header" class="section section-header">
-  <div class="header-wrapper no-userinfo" style=" ">
-    <div class="top-fill">
-      <div class="wrap">
-        <div class="fill"></div>
-      </div>
+    <div class="header-wrapper no-userinfo" style=" ">
+        <div class="top-fill">
+            <div class="wrap">
+                <div class="fill"></div>
+            </div>
+        </div>
+        <nav class="top-nav">
+            <div class="wrap">
+                <div class="shard"></div>
+                <div class="logo">
+                    <a href="<%- config.root %>"></a>
+                </div>
+                <ul class="main-menu">
+                    <% menu("Home") %>
+                    <% menu("Archives") %>
+                </ul>
+                <div id="sub-nav-hexo">
+                    <% if (theme.rss){ %>
+                    <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
+                    <% } %>
+                    <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+
+                    <div id="search-form-wrap">
+                        <%- search_form({button: '&#xF002;'}) %>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="sub-nav">
+            <div class="wrap">
+                <div class="sub-fill"></div>
+                <ul class="secondary-menu">
+                    <li class="menu-383 first">
+                        <a href="/" title="">Test</a>
+                    </li>
+                </ul>
+                <script> var submore = 'More'; </script>
+            </div>
+        </nav>
     </div>
-    <nav class="top-nav">
-      <div class="wrap">
-        <div class="shard"></div>
-        <div class="logo">
-          <a href="<%- config.root %>"></a>
-        </div>
-        <ul class="main-menu">
-            <% menu("Home") %>
-            <% menu("Archives") %>
-        </ul>
-        <div id="sub-nav-hexo">
-           <% if (theme.rss){ %>
-          <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
-        <% } %>
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-        <div id="search-form-wrap">
-        <%- search_form({button: '&#xF002;'}) %>
-      </div>
-        </div>
-      </div>
-    </nav>
-    <nav class="sub-nav">
-      <div class="wrap">
-        <div class="sub-fill"></div>
-        <ul class="secondary-menu">
-          <li class="menu-383 first">
-            <a href="/" title="">Test</a>
-          </li>
-        </ul>
-        <script> var submore = 'More'; </script>
-      </div>
-    </nav>
-  </div>
 </header>
 <header class="m-header clear">
-  <div class="m-logo"><a href="/"></a></div>
-  <div id="m-sub-nav-hexo">
-           <% if (theme.rss){ %>
-          <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
+    <div class="m-logo"><a href="/"></a></div>
+    <div id="m-sub-nav-hexo">
+        <% if (theme.rss){ %>
+        <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
         <% } %>
         <a id="m-nav-search-btn" class="nav-icon" title="Search"></a>
+
         <div id="m-search-form-wrap">
-        <%- search_form({button: '&#xF002;'}) %>
-  </div>
+            <%- search_form({button: '&#xF002;'}) %>
+        </div>
 
 </header>
